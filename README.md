@@ -17,9 +17,14 @@ Bad Apple в консоли — это ASCII-плеер, который прои
 - **pygame-ce** — воспроизведение звука (MP3/WAV/OGG)
 
 ### Установка
+```bash
 py -m pip install opencv-python pygame-ce
+```
 
 `ffmpeg` нужен опционально — для извлечения аудио из mp4 и конвертации форматов.
+```bash
+winget install Gyan.FFmpeg
+```
 
 ---
 
@@ -38,6 +43,11 @@ Works in Windows Terminal and any ANSI-capable terminal. Frame width, character 
 - **pygame-ce** — audio playback (MP3/WAV/OGG)
 
 ### Install
+```bash
 py -m pip install opencv-python pygame-ce
+```
 
 `ffmpeg` is optional — for extracting audio from mp4 and converting formats.
+```bash
+winget install Gyan.FFmpeg
+```
