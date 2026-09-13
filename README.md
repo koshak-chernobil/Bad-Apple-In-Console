@@ -10,6 +10,16 @@ Bad Apple в консоли — это ASCII-плеер, который прои
 
 Работает в Windows Terminal и любом терминале с поддержкой ANSI. Настраивается ширина кадра, палитра символов и громкость.
 
+### Использование
+
+Открой **Windows Terminal** или **PowerShell**, перейди в полноэкранный режим (`Alt + Enter` или `F11`) и запусти:
+
+```bash
+py BadApple.py
+```
+
+Выход — `Ctrl+C`.
+
 ### Зависимости
 
 - **Python 3.13+**
@@ -35,6 +45,16 @@ Bad Apple in the Terminal is an ASCII player that plays the Bad Apple!! video ri
 The project is written in Python using OpenCV for video reading and processing. Output goes to the terminal's alternate buffer, which eliminates flickering and keeps your command history clean. Each frame is drawn with a single `write()` call, giving smooth animation even on weak machines. If rendering falls behind the audio, extra frames are dropped so video and music stay in sync.
 
 Works in Windows Terminal and any ANSI-capable terminal. Frame width, character palette, and volume are configurable.
+
+### Usage
+
+Open **Windows Terminal** or **PowerShell**, switch to fullscreen (`Alt + Enter` or `F11`), and run:
+
+```bash
+py BadApple.py
+```
+
+Exit with `Ctrl+C`.
 
 ### Dependencies
 
