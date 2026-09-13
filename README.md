@@ -1,3 +1,5 @@
+RU
+
 Русский
 Bad Apple в консоли — это ASCII-плеер, который проигрывает видео Bad Apple!! прямо в терминале Windows. Каждый кадр видео конвертируется в поток текстовых символов, где яркость пикселя соответствует «плотности» символа, а звук воспроизводится синхронно через pygame.
 
@@ -17,6 +19,8 @@ pygame-ce — воспроизведение звука (MP3/WAV/OGG)
 text
 py -m pip install opencv-python pygame-ce
 ffmpeg нужен опционально — для извлечения аудио из mp4 и конвертации форматов.
+
+ENG
 
 English
 Bad Apple in the Terminal is an ASCII player that plays the Bad Apple!! video right inside your Windows terminal. Each video frame is converted into a stream of text characters, where pixel brightness maps to character "density", and audio is played back in sync via pygame.
